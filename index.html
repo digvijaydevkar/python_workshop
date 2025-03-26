@@ -1,4 +1,4 @@
-<htlm>
+<html>
     <head>
     <title>
     Javacript Workshop
@@ -6,22 +6,36 @@
   </head>
   <body>
     <script>
-        let n=Number(prompt("Enter number"))
-        let isp=true;
-        for(let i=2;i<(Math.sqrt(n));i++){
-            if(n%i==0){
-                let isP=false;
-                break;
-            }
-        }
-        if(isp){
-            console.log("Given number is prime number")
-        }
-        else{
-            console.log("Given number is not prime number")
+        // first problem 
+        // let n=Number(prompt("Enter number"))
+        // let isp=true;
+        // for(let i=2;i<(Math.sqrt(n));i++){
+        //     if(n%i==0){
+        //         let isP=false;
+        //         break;
+        //     }
+        // }
+        // if(isp){
+        //     console.log("Given number is prime number")
+        // }
+        // else{
+        //     console.log("Given number is not prime number")
 
-        }
+        // }
+
+
+        // 2nd prpoblem
+        // let n=parseFloat(prompt("Enter number"))
+        // console.log("The temperature in faranite is ",(n*9/5)+32)
+
      
+        // 3rd problem
+        let numbers=[20,30,50,60,70,100]
+        let sum=0
+        for(let i=0;i<numbers.length;i++){
+            sum+=numbers[i]
+        }
+        console.log("sum of all values in array is",sum)
     </script>
   </body>
-</htlm>
+</html>
